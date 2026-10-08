@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LEE DE MING | Personal Profile</title>
+<style>
+  *{box-sizing:border-box}
+  body{
+    margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+    background:linear-gradient(145deg,#111,#252525); color:#fff; padding:24px;
+  }
+  .card{
+    width:100%; max-width:420px; padding:34px 26px; border-radius:28px;
+    background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.14);
+    box-shadow:0 20px 60px rgba(0,0,0,.4); backdrop-filter:blur(18px);
+    text-align:center;
+  }
+  .avatar{
+    width:82px;height:82px;margin:0 auto 20px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    background:#fff;color:#111;font-size:25px;font-weight:800;letter-spacing:1px;
+  }
+  .tag{font-size:12px;letter-spacing:3px;text-transform:uppercase;opacity:.6;margin-bottom:9px}
+  h1{margin:0;font-size:30px;letter-spacing:1px}
+  .subtitle{margin:8px 0 28px;opacity:.65}
+  .info{text-align:left;margin:0 0 24px}
+  .row{padding:15px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+  .label{font-size:11px;text-transform:uppercase;letter-spacing:1.5px;opacity:.5;margin-bottom:5px}
+  .value{font-size:17px}
+  .buttons{display:grid;gap:11px}
+  a{
+    display:block;padding:14px;border-radius:14px;text-decoration:none;font-weight:700;
+    background:#fff;color:#111;
+  }
+  a.secondary{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.12)}
+  .footer{margin-top:24px;font-size:11px;opacity:.35;letter-spacing:1px}
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="avatar">LD</div>
+    <div class="tag">NFC Personal Profile</div>
+    <h1>LEE DE MING</h1>
+    <div class="subtitle">Personal Information</div>
+
+    <section class="info">
+      <div class="row">
+        <div class="label">Date of Birth</div>
+        <div class="value">6 February 2000</div>
+      </div>
+      <div class="row">
+        <div class="label">Phone</div>
+        <div class="value">018-779 9496</div>
+      </div>
+    </section>
+
+    <div class="buttons">
+      <a href="tel:+60187799496">📞 Call Me</a>
+      <a class="secondary" href="https://wa.me/60187799496">💬 WhatsApp Me</a>
+    </div>
+
+    <div class="footer">TAP • CONNECT • SHARE</div>
+  </main>
+</body>
+</html>
